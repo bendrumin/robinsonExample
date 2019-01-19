@@ -10,3 +10,4 @@ $('#text').keyup(function() {
 
   $('#count_message').html(text_remaining + ' characters remaining');
 })
+});
