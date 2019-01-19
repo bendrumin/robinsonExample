@@ -1,14 +1,8 @@
 
 body, html {
   font-family: 'Open Sans', sans-serif;
-
-  }
-
-.wrapper {
   background-color: #eee;
-  padding: 10px 0;
-
-}
+  }
 .container {
   background-color: #fff;
 }
@@ -22,3 +16,9 @@ body, html {
 .shadowContainer {
   box-shadow: 0 0 10px #ccc;
 }
+.row {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.control-label {font-weight: 400;padding-bottom: 5px;}
+.btn-success {margin-top: 15px;}
