@@ -1,130 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
-  <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/styles.css">\
-  <script src="js/main.js" charset="utf-8"></script>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontAwesome/css/font-awesome.min.css">
 
-
-
-  <!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+    <!--[if lt IE 9]>
+<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
+
 <body>
-  <div class="container">
-    <nav class="navbar navbar-default" role="navigation">
-
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"></a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#"></a></li>
-
-        </ul>
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"></a></li>
-
-        </ul>
-      </div><!-- /.navbar-collapse -->
-
-    </nav>
-  </div><!-- /.container-fluid -->
-
-
-    <div class="jumbotron">
-      <h1>Hello, world!</h1>
-      <p></p>
-    </div>
-  <div class="container">
-    <div class="row">
-      <p>
-        Have a question? Need some help? Just want to talk? We’re off exploring the world, so the best way to reach us is to drop us a line and we’ll do our best to get back to you as quickly as possible!</p>
-      </div>
-      <div class="row">
-        <div class="col-md-6 shadowContainer">
-          <form class="form-horizontal">
-            <section>
-              <h4>We’re excited to hear from you!</h4>
-
-              <div class="form-group">
-                <div class="col-md-12">
-                  <label class="control-label" for="textinput">Your Full Name</label>
-
-                  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control">
-
-                </div>
-              </div>
-
-              <div class="form-group">
-
-                <div class="col-md-12">
-                  <label class="control-label" for="emailInput">Email</label>
-                  <input id="emailInput" name="emailInput" type="text" placeholder="" class="form-control input-md">
-
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="col-md-12">
-                  <label class="control-label" for="reguardingInput">Regarding</label>
-
-                  <input id="reguardingInput" name="reguardingInput" type="text" placeholder="" class="form-control input-md">
-
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="col-md-12">
-                  <form accept-charset="UTF-8" action="" method="POST">
-                    <textarea class="form-control" id="text" name="text" maxlength="200" placeholder="Type in your message" rows="5"></textarea>
-                      <span class="pull-right label label-default" id="count_message"></span>
-    </form>
-                </div>
-              </div>
-              <div class="checkbox">
-                <label><input type="checkbox"> Send me updates on new Adventure Oppertunities</label>
-              </div>
-              <div class="form-group">
-                <div class="col-md-2">
-                  <button id="singlebutton" name="singlebutton" class="btn btn-success btn-md">Submit</button>
-                </div>
-
-              </section>
-            </form>
-          </div>
-          <div class="col-md-6">
-            This is another column
-          </div>
+    <header>
+        <div class="container">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Hamburger 1</a></li>
+                        <li><a href="#">Hamburger 2</a></li>
+                        <li><a href="#">Hamburger 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="navbar-brand" href="#">ABC Adventure Company</a>
+            <button type="button" class="btn btn-default btn-round pull-right ">Log In</button>
         </div>
-      </div>
+    </header>
 
+    <div class="jumbotron vertical-center">
+        <div class="container">
+            <h1 class="text-center">Get In Touch</h1>
+        </div>
+    </div>
 
-    </body>
-    </html>
+    <div class="container">
+        <div class="row about">
+            <section>
+                <p>
+                    Have a question? Need some help? Just want to talk? We’re off exploring the world, so the best way to reach us is to drop us a line and we’ll do our best to get back to you as quickly as possible!
+                </p>
+            </section>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 shadowContainer">
+                <form class="form-horizontal">
+                    <section>
+                        <h4>We’re excited to hear from you!</h4>
+
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <label class="control-label" for="textinput">Your Full Name</label>
+
+                                <input id="textinput" name="textinput" type="text" placeholder="" class="form-control">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+
+                            <div class="col-md-12">
+                                <label class="control-label" for="emailInput">Email</label>
+                                <input id="emailInput" name="emailInput" type="text" placeholder="" class="form-control input-md">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <label class="control-label" for="reguardingInput">Regarding</label>
+
+                                <input id="reguardingInput" name="reguardingInput" type="text" placeholder="" class="form-control input-md">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <form accept-charset="UTF-8" action="" method="POST">
+                                    <textarea class="form-control" id="text" name="text" maxlength="200" placeholder="Type in your message" rows="5"></textarea>
+                                    <span class="pull-right label label-default" id="count_message"></span>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Send me updates on new Adventure Oppertunities</label>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-2">
+                                <button id="submit" class="btn btn-round btn-success btn-md">Submit</button>
+                            </div>
+
+                    </section>
+                </form>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-4">
+                    <div class="contactSection">
+                        <article class="">
+                            <h4>Other ways to contact</h4>
+                            <ul>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i> <span>1+(555) 555-5555</span></li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i> <span>contact@abcCompany.com</span></li>
+                                <li class="clearfix"><i class="fa fa-map-marker pull-left" aria-hidden="true"></i>
+                                    <span class="pull-left">
+                                      Adventure HQ<br>
+                                      123 Main Street<br>
+                                      San Francisco, CA, 55555<br>
+                                      </span>
+
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="helpfulLinks">
+                            <h4>Helpful Links</h4>
+                            <ul>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link 2</a></li>
+                                <li><a href="#">Link 3</a></li>
+                            </ul>
+                        </article>
+
+                    </div>
+
+                </div>
+            </div>
+              <footer>
+                  <section class="pull-left">
+                      <p>ABC Adventure Company</p>
+                  </section>
+                  <section class="pull-right">
+                      <p>Copyright 2018 All Rights Reserved</p>
+                  </section>
+
+              </footer>
+
+        </div>
+
+</body>
+
+</html>
