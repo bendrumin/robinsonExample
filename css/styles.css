@@ -1,0 +1,24 @@
+
+body, html {
+  font-family: 'Open Sans', sans-serif;
+
+  }
+
+.wrapper {
+  background-color: #eee;
+  padding: 10px 0;
+
+}
+.container {
+  background-color: #fff;
+}
+.jumbotron {
+  background-image: url("../img/bannerImage.jpg");
+  background-size: cover;
+  margin-bottom: 0;
+  height: 300px;
+}
+
+.shadowContainer {
+  box-shadow: 0 0 10px #ccc;
+}
