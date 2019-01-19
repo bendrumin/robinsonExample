@@ -31,9 +31,9 @@
             <span class="glyphicon glyphicon-menu-hamburger"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Hamburger 1</a></li>
-            <li><a href="#">Hamburger 2</a></li>
-            <li><a href="#">Hamburger 3</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Book a Trip</a></li>
           </ul>
         </li>
       </ul>
@@ -44,68 +44,72 @@
 
   <div class="jumbotron vertical-center">
     <div class="container">
-      <h1 class="text-center">Get In Touch</h1>
+      <h2 class="text-center">Get In Touch</h2>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container mainContent">
     <div class="row about">
       <section>
         <p>
           Have a question? Need some help? Just want to talk? We’re off exploring the world, so the best way to reach us is to drop us a line and we’ll do our best to get back to you as quickly as possible!
         </p>
       </section>
-
     </div>
-
     <div class="row">
       <div class="col-md-6 shadowContainer">
-        <form class="form-horizontal">
-          <section>
+<form class="form-horizontal" id="contact-form" role="form" data-toggle="validator">
+            <section>
             <h4>We’re excited to hear from you!</h4>
 
             <div class="form-group">
               <div class="col-md-12">
-                <label class="control-label" for="textinput">Your Full Name</label>
-
-                <input id="textinput" name="textinput" type="text" placeholder="" class="form-control">
+                <label class="control-label" for="Full Name">Your Full Name</label>
+                <input id="textinput" name="textinput" type="text" required ata-error-msg="Must enter your name?" placeholder="" class="form-control" aria-label="Your Full Name" >
 
               </div>
+
             </div>
 
             <div class="form-group">
 
               <div class="col-md-12">
-                <label class="control-label" for="emailInput">Email</label>
-                <input id="emailInput" name="emailInput" type="text" placeholder="" class="form-control input-md">
+                <label class="control-label" for="Email">Email</label>
+                <input id="emailInput" name="emailInput" type="email" autocomplete="email" required autocapitalize="off" autocorrect="off" spellcheck="false" placeholder=""  aria-label="Email Address" class="form-control input-md"  >
 
               </div>
+
             </div>
 
             <div class="form-group">
               <div class="col-md-12">
-                <label class="control-label" for="reguardingInput">Regarding</label>
-
-                <input id="reguardingInput" name="reguardingInput" type="text" placeholder="" class="form-control input-md">
+                <label class="control-label" for="Reguarding">Regarding</label>
+                <input id="reguardingInput" name="reguardingInput" type="text" placeholder="" class="form-control input-md" aria-label="Reguarding"required >
 
               </div>
+
             </div>
 
             <div class="form-group">
               <div class="col-md-12">
-                <form accept-charset="UTF-8" action="" method="POST">
-                  <textarea class="form-control" id="text" name="text" maxlength="200" placeholder="Type in your message" rows="5"></textarea>
+                  <textarea class="form-control" id="text" name="text" maxlength="200" rows="5" aria-label="Message" required ></textarea>
                   <span class="pull-right label label-default" id="count_message"></span>
-                </form>
+
               </div>
+
             </div>
+            <div class="form-group">
+          <div class="col-md-12">
+              <p class="text-muted">
+                  <strong>*</strong> These fields are required.</div>
+      </div>
             <div class="checkbox">
               <label>
                 <input type="checkbox"> Send me updates on new Adventure Oppertunities</label>
               </div>
               <div class="form-group">
                 <div class="col-md-2">
-                  <button id="submit" class="btn btn-round btn-success btn-md">Submit</button>
+                  <button id="submit" type="submit" value="Submit" class="btn btn-round btn-success btn-md">Submit</button>
                 </div>
 
               </section>
@@ -148,15 +152,11 @@
 
         <footer>
           <div class="row">
-            <div class="clearfix"">
-              <div class="pull-left">
-                <p>ABC Adventure Company</p>
-              </div>
-              <div class="pull-right">
-                <p>Copyright 2018 All Rights Reserved</p>
-              </div>
+            <div class="container">
+              <p class="pull-left">ABC Adventure Company</p>
+              <p class="pull-right">Copyright 2018 - All rights reserved</p>
             </div>
-          </div>
+            </div>
 
 
         </footer>
