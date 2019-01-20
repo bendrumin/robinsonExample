@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/main.js" charset="utf-8"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="../css/fontAwesome/css/font-awesome.min.css">
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <!-- Navbar Container -->
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#cheeseburgerMenu" aria-expanded"false">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <a href="#" class="navbar-brand pull-left">
+            ABC Adventure Company
+          </a>
+          <button type="button" class="btn btn-default  btn-round navbar-btn pull-right">Log In</button>
+
+        </div>
+
+
+        <div class="collapse navbar-collapse navbar-left" id="cheeseburgerMenu">
+
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active">
+              <a href="about.html">About Us</a>
+            </li>
+            <li>
+              <a href="help.html">Help Center</a>
+            </li>
+            <li>
+              <a href="book.html" class="active">Book a Trip</a>
+            </li>
+            <li>
+              <a href="index.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <div class="jumbotron vertical-center">
+    <div class="container">
+      <h2 class="text-center">Book a Trip</h2>
+    </div>
+  </div>
+  <div class="container mainContent">
+    <div class="row about">
+      <section>
+        <p>
+          Have a question? Need some help? Just want to talk? We’re off exploring the world, so the best way to reach us is to drop us a line and we’ll do our best to get back to you as quickly as possible!
+        </p>
+      </section>
+    </div>
+    <div class="col-md-8">
+      <form class="form-horizontal">
+        <fieldset>
+
+          <!-- Form Name -->
+          <h4>Book a Tour</h4>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="name">Name</label>
+            <div class="col-md-8">
+              <input id="name" name="name" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="emailaddress">Email Address</label>
+            <div class="col-md-8">
+              <input id="emailaddress" name="emailaddress" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="phone">Phone Number</label>
+            <div class="col-md-8">
+              <input id="phone" name="phone" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+          </div>
+
+          <!-- Select Basic -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="tourselection">Tour</label>
+            <div class="col-md-8">
+              <select id="tourselection" name="tourselection" class="form-control">
+                <option value="1">Charter Fishing Trip</option>
+                <option value="2">Booze Cruise</option>
+                <option value="3">Kayak per person</option>
+                <option value="4">Airboat</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Multiple Radios -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="airboatsize">Airboat Size</label>
+            <div class="col-md-8">
+              <div class="radio">
+                <label for="airboatsize-0">
+                  <input type="radio" name="airboatsize" id="airboatsize-0" value="1" checked="checked">
+                  Small
+                </label>
+              </div>
+              <div class="radio">
+                <label for="airboatsize-1">
+                  <input type="radio" name="airboatsize" id="airboatsize-1" value="2">
+                  Large
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="quantity">Number of People</label>
+            <div class="col-md-8">
+              <input id="quantity" name="quantity" type="text" placeholder="" class="form-control input-md">
+
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="dateselection">Date</label>
+            <div class="col-md-8">
+              <input id="dateselection" name="dateselection" type="text" placeholder="" class="form-control input-md">
+
+            </div>
+          </div>
+
+          <!-- Select Basic -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="timeselect">Time</label>
+            <div class="col-md-8">
+              <select id="timeselect" name="timeselect" class="form-control">
+                <option value="1">9:45a</option>
+                <option value="2">12p</option>
+                <option value="3">2p</option>
+                <option value="4">4p</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="hotel">Hotel Name</label>
+            <div class="col-md-8">
+              <input id="hotel" name="hotel" type="text" placeholder="" class="form-control input-md">
+
+            </div>
+          </div>
+
+          <!-- Multiple Checkboxes (inline) -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="pickup">Hotel Pickup</label>
+            <div class="col-md-8">
+              <label class="checkbox-inline" for="pickup-0">
+                <input type="checkbox" name="pickup" id="pickup-0" value="1">
+                Yes
+              </label>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+
+
+
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="container">
+        <p class="pull-left">ABC Adventure Company</p>
+        <p class="pull-right">Copyright 2018 - All rights reserved</p>
+      </div>
+    </div>
+
+
+  </footer>
+
+</body>
+</html>
