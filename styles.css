@@ -11,15 +11,19 @@ h4 {
   color: #090;
   font-weight: 300;
 }
-
+.navbar {
+  margin-bottom: 0;
+}
 .navbar-brand,  .glyphicon.glyphicon-menu-hamburger {
   color: black;
 }
 .navbar-brand {
   font-weight: 200;
+  margin: 10px;
 }
-.page-header {
-  margin: 0;
+
+.navbar-default .navbar-toggle {
+  border: none;
 }
 footer {
   position: relative;
@@ -40,6 +44,7 @@ footer .container {
 
 .container {
   background-color: #fff;
+  display: flex-grid;
 }
 
 .container.mainContent {
