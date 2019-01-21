@@ -41,7 +41,8 @@ footer .container {
 }
 
 .container.mainContent {
-  height: 800px;
+  height: 100%;
+  margin-bottom: 200px;
 }
 
 .jumbotron {
