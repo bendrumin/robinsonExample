@@ -42,11 +42,7 @@ footer .container {
 
 .container.mainContent {
   height: 100%;
-<<<<<<< HEAD
-  margin-bottom: 200px;
-=======
   padding-bottom: 200px;
->>>>>>> stretchGoals
 }
 
 .jumbotron {
